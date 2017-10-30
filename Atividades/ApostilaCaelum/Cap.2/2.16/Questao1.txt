@@ -1,0 +1,8 @@
+/*1) Procure um colega, ou algum conhecido, que esteja em um projeto Java. Descubra porque Java foi escolhido
+como tecnologia. O que é importante para esse projeto e o que acabou fazendo do Java a melhor
+escolha?
+/*
+
+Os projetos que escolhem utilizar a linguagem de programação java,
+em sua mairia se baseiam na portabilidade apresentada pela linguagem,
+onde seu lema "Write one, Run anywhere", é muito útil nas aplicações atuais

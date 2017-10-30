@@ -1,0 +1,10 @@
+/*1) Um arquivo fonte Java deve sempre ter a extensão .java, ou o compilador o rejeitará. Além disso, existem
+algumas outras regras na hora de dar o nome de um arquivo Java. Experimente gravar o código deste
+capítulo com OutroNome.java ou algo similar.
+
+Compile e verique o nome do arquivo gerado. Como executar a sua aplicação?
+/*
+
+Ao compilar um arquivo, serão gerados os arquivos com as classes do arquivo compilado,
+para rodar o programa, deve-se escolher o nome da classe gerada, que deve possuir o main
+e chamar o java com o nome da classe principal, retirando-se o .class
