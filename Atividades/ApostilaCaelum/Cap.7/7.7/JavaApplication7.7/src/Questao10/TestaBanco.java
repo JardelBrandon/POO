@@ -36,6 +36,9 @@ public class TestaBanco {
                 atualizar.roda(conta);
             }
         }
+        Conta contaTeste = b.pegaConta(5);
+        System.out.println(contaTeste.saldo);
+        System.out.println(b.pegaTotalDeContas());
     }
     
 }
