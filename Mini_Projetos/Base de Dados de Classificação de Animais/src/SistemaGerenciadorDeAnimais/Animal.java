@@ -5,11 +5,15 @@
  */
 package SistemaGerenciadorDeAnimais;
 
+import java.io.Serializable;
+
 /**
  *
  * @author ifpb
  */
-public  class Animal {
+public class Animal implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
     private String nome;
     private int idade;
     

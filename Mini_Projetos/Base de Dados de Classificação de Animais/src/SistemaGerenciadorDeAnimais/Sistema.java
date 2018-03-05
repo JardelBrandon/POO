@@ -42,16 +42,23 @@ public class Sistema {
     }
     
     void listaAnimaisArmazenados() {
-        for(Map.Entry<String, Animal> animal : animais.entrySet()){
-            System.out.println("{Nome:" + animal.getValue().getNome() + 
-                        ", Idade: " + animal.getValue().getIdade() + "}" +
-                        animal.getValue().getClass());
-            
+        if (animais.isEmpty()) {
+            System.out.println("O cadastro se encontra vázio!");
+        }
+        else {
+            for(Map.Entry<String, Animal> animal : animais.entrySet()){
+                System.out.println("{Nome:" + animal.getValue().getNome() + 
+                            ", Idade: " + animal.getValue().getIdade() + "}" +
+                            animal.getValue().getClass());
+            }  
         }
     }
 
-    public HashMap<String, Animal> getAnimais() {
-        return animais;
+    public void setAnimais(HashMap<String, Animal> animais) {
+        this.animais = animais;
     }
     
+    public HashMap<String, Animal> getAnimais() {
+        return animais;
+    }   
 }
