@@ -9,7 +9,7 @@ package SistemaGerenciadorDeAnimais;
  *
  * @author ifpb
  */
-public class Animal {
+public  class Animal {
     private String nome;
     private int idade;
     

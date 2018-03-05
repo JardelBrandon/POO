@@ -10,5 +10,5 @@ package SistemaGerenciadorDeAnimais;
  * @author ifpb
  */
 public interface Herbivoro {
-    
+    void alimentacaoHerbivora(Animal animal);
 }

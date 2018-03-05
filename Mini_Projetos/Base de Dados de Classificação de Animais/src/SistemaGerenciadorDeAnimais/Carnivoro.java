@@ -5,11 +5,10 @@
  */
 package SistemaGerenciadorDeAnimais;
 
-
-public class Homem extends Mamifero implements Domesticavel, Carnivoro, Herbivoro {
-
-    public Homem(String nome, int idade) {
-        super(nome, idade);
-    }
-
+/**
+ *
+ * @author ifpb
+ */
+public interface Carnivoro {
+    void alimentacaoCarnivora(Animal animal);
 }

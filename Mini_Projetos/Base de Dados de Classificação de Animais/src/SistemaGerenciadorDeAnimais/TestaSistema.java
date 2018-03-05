@@ -16,6 +16,7 @@ public class TestaSistema {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
         Homem homem = new Homem("José", 22);
         Macaco macaco = new Macaco("Caco", 5);
         Animal cavalo = new Cavalo("Alazão", 16);
@@ -37,6 +38,9 @@ public class TestaSistema {
         homem.setIdade(20);
         
         gerenciador.ListaAnimaisArmazenados();
+        */
+        Menu menu = new Menu();
+        
+        menu.menuPrincipal();
     }
-    
 }
