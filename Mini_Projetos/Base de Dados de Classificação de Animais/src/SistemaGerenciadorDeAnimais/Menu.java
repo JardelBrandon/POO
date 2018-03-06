@@ -31,6 +31,9 @@ public class Menu {
                 arquivo.createNewFile();
                 System.out.println("Criando arquivo para armazenar os animais cadastrados!");
             }
+            else if (arquivo.length() == 0) {
+                System.out.println("Arquivo encontra-se vázio!");
+            }
             else {
                 try {
                     System.out.println("Lendo animais cadastrados no arquivo!");

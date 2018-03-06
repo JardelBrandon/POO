@@ -10,7 +10,7 @@ package SistemaGerenciadorDeAnimais;
  *
  * @author ifpb
  */
-public class TestaSistema {
+public class Main {
 
     /**
      * @param args the command line arguments
